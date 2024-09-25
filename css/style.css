@@ -417,6 +417,9 @@ img {
   transition: transform var(--transition-default);
 }
 .modal-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -426,9 +429,8 @@ img {
   border-radius: 50%;
   background-color: var(--accent);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  cursor: pointer;
   transition: background-color var(--transition-default),
     border var(--transition-default);
 }
